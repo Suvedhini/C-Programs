@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a[10]={1,2,3,4,5,6,7,8,9,10};
+    int *ptr=&a[0];
+    int *ptr_ptr=&a[2];
+    printf("The address of a[0] is %u\n",ptr);
+    printf("The address of a[2] is %u\n",ptr_ptr);
+    return 0;
+}
